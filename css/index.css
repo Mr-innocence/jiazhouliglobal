@@ -1,10 +1,40 @@
-.header{
-  background-color: red;
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/bg_pink.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  margin-top: 12%;
+  margin-left: 15%;
+}
+
+#name{
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 128px;
   animation-name: bounceInDown;
   animation-duration: 1s;
   animation-fill-mode: both;
 }
 
+#startbtn{
+  margin-left: auto;
+  border-radius: 9px;
+  color: #fff;
+  font-size: 165%;
+  padding: 10px 20px;
+  border: solid #fff 3px;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#startbtn:hover {
+  color: #35889A;
+  border: solid #35889A 3px;
+}
 
 
 
