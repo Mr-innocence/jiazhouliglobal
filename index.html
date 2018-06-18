@@ -1,10 +1,26 @@
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="index.css">
 		<title>Practice</title>
 	</head>
-	<body>
-		I can do it.
-		Login form
+	<body id = "body">
+		<div class = "header">
+			<head>My Practice</head>
+		</div>
+		
+		<select name = "background" id = "background" onchange="changeBackground(this)">
+			<option value = "red">Red</option>
+			<option value = "yellow">Yellow</option>
+			<option value = "blue">Blue</option>
+		</select>
+		<script>
+			function changeBackground(x){
+				body = document.getElementById("body");
+				body.style.backgroundColor = x.value;
+			}
+
+		</script>
+		
 	</body>
 
 
